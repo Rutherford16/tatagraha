@@ -2,28 +2,12 @@
 
 import { Menu, Transition } from "@headlessui/react"
 import { Fragment } from "react";
+import Logo from "./logo";
 
 export default function Header() {
     return (
         <header className='flex bg-header px-8 h-fit'>
-            <span className='flex-none w-48 h-16 m-1'>
-                <svg viewBox="0 0 260 84" className="w-full h-auto text-black">
-                    <rect width='15' height='25' x='0' y='0' fill="currentColor" />
-                    <rect width='15' height='25' x='20' y='0' fill="currentColor" />
-                    <rect width='15' height='25' x='40' y='0' fill="currentColor" />
-                    <rect width='15' height='25' x='60' y='0' fill="currentColor" />
-                    <rect width='15' height='25' x='0' y='30' fill="currentColor" />
-                    <rect width='15' height='25' x='20' y='30' fill="currentColor" />
-                    <rect width='15' height='25' x='40' y='30' fill="currentColor" />
-                    <rect width='15' height='25' x='60' y='30' fill="none" stroke="currentColor" transform="rotate(45 76 54)" />
-                    <rect width='15' height='25' x='0' y='60' fill="currentColor" />
-                    <rect width='15' height='25' x='20' y='60' fill="currentColor" />
-                    <rect width='15' height='25' x='40' y='60' fill="currentColor" />
-                    <rect width='15' height='25' x='60' y='60' fill="currentColor" />
-                    <text y='50' x='100' className="text-4xl font-semibold font-mocha" fill="currentColor">tatagraha</text>
-                    <text y='75' x='100' className="text-lg" fill="currentColor">ARCHITECT</text>
-                </svg>
-            </span>
+            <Logo/>
             <span className="grow mx-9 font-medium child:mt-8 child:rounded-t child:py-1 child:px-3 child:mx-2 child-hover:text-gray-600">
                 <a href="/">Home</a>
                 <a href="/">Insight</a>
@@ -109,9 +93,9 @@ export default function Header() {
                 <a href="/">About</a>
             </span>
             <span className="flex-none pt-5 font-medium">
-                <button className="bg-blue-800 text-white py-1 px-3 rounded hover:bg-blue-600">
+                {/* <button className="bg-blue-800 text-white py-1 px-3 rounded hover:bg-blue-600">
                     Login
-                </button>
+                </button> */}
             </span>
         </header>
     )

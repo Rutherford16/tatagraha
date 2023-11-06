@@ -3,11 +3,11 @@
 import { Menu, Transition } from "@headlessui/react"
 import { Fragment } from "react";
 import Logo from "./logo";
-import Dropdown from 'react-bootstrap/Dropdown';
+import { Button, Dropdown } from "flowbite-react";
 
 export default function Header() {
     return (
-        <header className='flex bg-header px-8 h-fit'>
+        <header className='flex bg-header text-white px-8 h-fit'>
             <Logo />
             <span className="grow mx-9 font-medium child:mt-8 child:rounded-t child:py-1 child:px-3 child:mx-2 child-hover:text-gray-600">
                 <a href="/">Home</a>
@@ -93,7 +93,7 @@ export default function Header() {
                 </Menu>
                 <a href="/">About</a>
             </span>
-            <span className="grid grid-cols-2 content-center font-medium">
+            <span className="grid grid-cols-2 gap-2 content-center font-medium">
                 <div className="flex">
                     <input type="text" name="cari" id="" className="rounded-s p-1" placeholder="Cari" />
                     <button className="p-2 bg-link rounded-e">
@@ -102,17 +102,9 @@ export default function Header() {
                         </svg>
                     </button>
                 </div>
-                {/* <Dropdown>
-                    <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Dropdown Button
-                    </Dropdown.Toggle>
-
-                    <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown> */}
+                <Dropdown className="bg-link rounded" label="Indonesia" dismissOnClick={false}>
+                    <Dropdown.Item>English</Dropdown.Item>
+                </Dropdown>
                 {/* <button className="bg-blue-800 text-white py-1 px-3 rounded hover:bg-blue-600">
                     Login
                 </button> */}

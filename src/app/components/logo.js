@@ -39,7 +39,7 @@ export default function Logo() {
 
     return (
         <span className='flex-none w-48 h-16 m-1'>
-            <svg viewBox="0 0 260 84" className="w-full h-auto text-black">
+            <svg viewBox="0 0 260 84" className="w-full h-auto text-white">
                 <rect width='15' height='25' x='0' y='0' fill="currentColor" />
                 <rect width='15' height='25' x='20' y='0' fill="currentColor" />
                 <rect width='15' height='25' x='40' y='0' fill="currentColor" />

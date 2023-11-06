@@ -30,7 +30,7 @@ export default function Logo() {
                 .add({
                     targets: '#arsitek',
                     opacity: [0, 1]
-                });
+                }, '-=800');
     }
 
     useEffect(() => {

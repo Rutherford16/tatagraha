@@ -1,5 +1,5 @@
 import './globals.css'
-import Header from './component/header'
+import Header from './components/header'
 
 export const metadata = {
   title: 'tatagraha',

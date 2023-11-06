@@ -1,5 +1,6 @@
 import './globals.css'
 import Header from './components/header'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'tatagraha',
@@ -37,8 +38,12 @@ export default function RootLayout({ children }) {
                 </a>
               </div>
             </div>
-            <div className="border-r">
+            <div className="border-r px-8">
               <h1 className="text-center text-2xl">Our Client</h1>
+              <div className='grid grid-cols-4 bg-slate-600 rounded'>
+                <Image src='/img/bumn.png' width={320} height={240} alt='' className="" />
+                <Image src='/img/pertamina.png' width={1182} height={1182} alt='' className="" />
+              </div>
             </div>
             <div>
               <h1 className="text-center text-2xl">Shortlink</h1>

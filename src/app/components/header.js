@@ -3,11 +3,12 @@
 import { Menu, Transition } from "@headlessui/react"
 import { Fragment } from "react";
 import Logo from "./logo";
+import Dropdown from 'react-bootstrap/Dropdown';
 
 export default function Header() {
     return (
         <header className='flex bg-header px-8 h-fit'>
-            <Logo/>
+            <Logo />
             <span className="grow mx-9 font-medium child:mt-8 child:rounded-t child:py-1 child:px-3 child:mx-2 child-hover:text-gray-600">
                 <a href="/">Home</a>
                 <a href="/">Insight</a>
@@ -92,7 +93,26 @@ export default function Header() {
                 </Menu>
                 <a href="/">About</a>
             </span>
-            <span className="flex-none pt-5 font-medium">
+            <span className="grid grid-cols-2 content-center font-medium">
+                <div className="flex">
+                    <input type="text" name="cari" id="" className="rounded-s p-1" placeholder="Cari" />
+                    <button className="p-2 bg-link rounded-e">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-auto h-4" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </button>
+                </div>
+                {/* <Dropdown>
+                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        Dropdown Button
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>
+                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown> */}
                 {/* <button className="bg-blue-800 text-white py-1 px-3 rounded hover:bg-blue-600">
                     Login
                 </button> */}

@@ -9,12 +9,12 @@ export default function Header() {
     return (
         <header className='flex bg-header text-white px-8 h-fit'>
             <Logo />
-            <span className="grow mx-9 font-medium child:mt-8 child:rounded-t child:py-1 child:px-3 child:mx-2 child-hover:text-gray-600">
+            <span className="grow mx-9 font-medium child:mt-8 child:rounded-t child:py-1 child:px-3 child:mx-2 child-hover:text-gray-200">
                 <a href="/">Home</a>
                 <a href="/">Insight</a>
                 <Menu as="div" className="relative inline-block text-left">
                     <div>
-                        <Menu.Button className="inline-flex w-full font-medium">
+                        <Menu.Button className="inline-flex items-center w-full font-medium">
                             Project
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-3 h-auto">
                                 <path fillRule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clipRule="evenodd" />
@@ -95,7 +95,7 @@ export default function Header() {
             <span className="grid grid-cols-2 gap-2 content-center font-medium">
                 <div className="flex text-black">
                     <input type="text" name="cari" id="" className="rounded-s py-1 px-4" placeholder="Cari" />
-                    <button className="p-2 bg-link rounded-e">
+                    <button className="py-2 px-4 bg-link rounded-e">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-auto h-4" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                         </svg>

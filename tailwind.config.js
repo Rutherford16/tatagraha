@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        background: '#f2f2f2',
+        backgroundDark: '#0f1026',
+        header: '#4973f2',
+        footer: '#1b2040',
+        link: '#4F4557',
+      },
       fontFamily: {
         mocha: ['mocha']
       },

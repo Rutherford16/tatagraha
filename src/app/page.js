@@ -8,21 +8,21 @@ export default function Home() {
 
   return (
     <>
-      <header className='flex bg-gray-100 px-8 h-fit'>
+      <header className='flex bg-header px-8 h-fit'>
         <span className='flex-none w-48 h-16 m-1'>
-          <svg viewBox="0 0 260 84" className="w-full h-auto text-blue-800">
-            <rect width='15' height='25' x='0' y='0' fill="currentColor"/>
-            <rect width='15' height='25' x='20' y='0' fill="currentColor"/>
-            <rect width='15' height='25' x='40' y='0' fill="currentColor"/>
-            <rect width='15' height='25' x='60' y='0' fill="currentColor"/>
-            <rect width='15' height='25' x='0' y='30' fill="currentColor"/>
-            <rect width='15' height='25' x='20' y='30' fill="currentColor"/>
-            <rect width='15' height='25' x='40' y='30' fill="currentColor"/>
-            <rect width='15' height='25' x='60' y='30' fill="none" stroke="currentColor" transform="rotate(45 76 54)"/>
-            <rect width='15' height='25' x='0' y='60' fill="currentColor"/>
-            <rect width='15' height='25' x='20' y='60' fill="currentColor"/>
-            <rect width='15' height='25' x='40' y='60'fill="currentColor"/>
-            <rect width='15' height='25' x='60' y='60' fill="currentColor"/>
+          <svg viewBox="0 0 260 84" className="w-full h-auto text-black">
+            <rect width='15' height='25' x='0' y='0' fill="currentColor" />
+            <rect width='15' height='25' x='20' y='0' fill="currentColor" />
+            <rect width='15' height='25' x='40' y='0' fill="currentColor" />
+            <rect width='15' height='25' x='60' y='0' fill="currentColor" />
+            <rect width='15' height='25' x='0' y='30' fill="currentColor" />
+            <rect width='15' height='25' x='20' y='30' fill="currentColor" />
+            <rect width='15' height='25' x='40' y='30' fill="currentColor" />
+            <rect width='15' height='25' x='60' y='30' fill="none" stroke="currentColor" transform="rotate(45 76 54)" />
+            <rect width='15' height='25' x='0' y='60' fill="currentColor" />
+            <rect width='15' height='25' x='20' y='60' fill="currentColor" />
+            <rect width='15' height='25' x='40' y='60' fill="currentColor" />
+            <rect width='15' height='25' x='60' y='60' fill="currentColor" />
             <text y='50' x='100' className="text-4xl font-semibold font-mocha" fill="currentColor">tatagraha</text>
             <text y='75' x='100' className="text-lg" fill="currentColor">ARCHITECT</text>
           </svg>
@@ -34,6 +34,10 @@ export default function Home() {
             <div>
               <Menu.Button className="inline-flex w-full font-medium">
                 Project
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-3 h-auto">
+                  <path fillRule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clipRule="evenodd" />
+                </svg>
+
               </Menu.Button>
             </div>
             <Transition
@@ -50,7 +54,7 @@ export default function Home() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                           } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         Edit
@@ -60,7 +64,7 @@ export default function Home() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                           } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         Duplicate
@@ -72,7 +76,7 @@ export default function Home() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                           } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         Archive
@@ -82,7 +86,7 @@ export default function Home() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                           } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         Move
@@ -94,7 +98,7 @@ export default function Home() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                           } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         Delete
@@ -120,7 +124,7 @@ export default function Home() {
           <div className="absolute p-5 top-20 right-3 text-black bg-white bg-opacity-80 max-w-md">
             <h3 className="text-3xl border-b border-black mb-2">Nama Proyek</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sit voluptatibus quia laborum quo sapiente atque praesentium delectus, perferendis nobis voluptates asperiores architecto ex fugiat. 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sit voluptatibus quia laborum quo sapiente atque praesentium delectus, perferendis nobis voluptates asperiores architecto ex fugiat.
             </p>
           </div>
         </div>
@@ -128,20 +132,20 @@ export default function Home() {
           <p className="px-16 flex items-center border">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nostrum fugiat totam quaerat. Velit, quisquam labore? At sed porro beatae tempore, aliquid totam neque fugit itaque. Nemo totam ipsam maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis ipsa magni quae? Explicabo repudiandae error placeat earum adipisci eaque obcaecati, voluptatibus eligendi, voluptate perspiciatis nihil commodi aspernatur ab quia?
           </p>
-          <Image src='/img/rumah-sederhana-dan-recommended-3.jpeg' width={100} height={100} alt='' className="w-full h-auto"/>
-          <Image src='/img/rumah-sederhana-dan-recommended-3.jpeg' width={100} height={100} alt='' className="w-full h-auto"/>
+          <Image src='/img/rumah-sederhana-dan-recommended-3.jpeg' width={100} height={100} alt='' className="w-full h-auto" />
+          <Image src='/img/rumah-sederhana-dan-recommended-3.jpeg' width={100} height={100} alt='' className="w-full h-auto" />
           <p className="px-16 flex items-center border">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nostrum fugiat totam quaerat. Velit, quisquam labore? At sed porro beatae tempore, aliquid totam neque fugit itaque. Nemo totam ipsam maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis ipsa magni quae? Explicabo repudiandae error placeat earum adipisci eaque obcaecati, voluptatibus eligendi, voluptate perspiciatis nihil commodi aspernatur ab quia?
           </p>
           <p className="px-16 flex items-center border">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nostrum fugiat totam quaerat. Velit, quisquam labore? At sed porro beatae tempore, aliquid totam neque fugit itaque. Nemo totam ipsam maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis ipsa magni quae? Explicabo repudiandae error placeat earum adipisci eaque obcaecati, voluptatibus eligendi, voluptate perspiciatis nihil commodi aspernatur ab quia?
           </p>
-          <Image src='/img/rumah-sederhana-dan-recommended-3.jpeg' width={100} height={100} alt='' className="w-full h-auto"/>
+          <Image src='/img/rumah-sederhana-dan-recommended-3.jpeg' width={100} height={100} alt='' className="w-full h-auto" />
         </div>
       </main>
-      <footer className="grid grid-cols-2 bg-slate-800 text-white p-4">
+      <footer className="grid grid-cols-2 bg-footer text-white p-4">
         aaaa
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3554.4032085336867!2d117.13310366386696!3d-0.4724535844023699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1699106270112!5m2!1sen!2sid" className="w-full h-80" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3554.4032085336867!2d117.13310366386696!3d-0.4724535844023699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1699106270112!5m2!1sen!2sid" className="w-full h-80" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </footer>
     </>
   )

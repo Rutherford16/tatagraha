@@ -19,19 +19,19 @@ export default function Home() {
         </div> */}
         <div className="m-10">
           <div className="grid grid-cols-2">
-            <p className="p-16 flex items-center text-justify border">
+            <p className="p-16 flex items-center text-justify border text-2xl">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nostrum fugiat totam quaerat. Velit, quisquam labore? At sed porro beatae tempore, aliquid totam neque fugit itaque. Nemo totam ipsam maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis ipsa magni quae? Explicabo repudiandae error placeat earum adipisci eaque obcaecati, voluptatibus eligendi, voluptate perspiciatis nihil commodi aspernatur ab quia?
             </p>
             <Image src='/img/rumah-sederhana-dan-recommended-3.jpeg' width={700} height={525} alt='' className="w-full h-auto" />
           </div>
           <div className="grid grid-cols-2">
             <Image src='/img/Desain-rumah-minimalis-modern-1092935829.webp' width={750} height={500} alt='' className="w-full h-auto" />
-            <p className="p-16 flex items-center text-justify border">
+            <p className="p-16 flex items-center text-justify border text-2xl">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nostrum fugiat totam quaerat. Velit, quisquam labore? At sed porro beatae tempore, aliquid totam neque fugit itaque. Nemo totam ipsam maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis ipsa magni quae? Explicabo repudiandae error placeat earum adipisci eaque obcaecati, voluptatibus eligendi, voluptate perspiciatis nihil commodi aspernatur ab quia?
             </p>
           </div>
           <div className="grid grid-cols-2">
-            <p className="p-16 flex items-center text-justify border">
+            <p className="p-16 flex items-center text-justify border text-2xl">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nostrum fugiat totam quaerat. Velit, quisquam labore? At sed porro beatae tempore, aliquid totam neque fugit itaque. Nemo totam ipsam maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis ipsa magni quae? Explicabo repudiandae error placeat earum adipisci eaque obcaecati, voluptatibus eligendi, voluptate perspiciatis nihil commodi aspernatur ab quia?
             </p>
             <Image src='/img/rumah-sederhana-dan-recommended-3.jpeg' width={700} height={525} alt='' className="w-full h-auto" />

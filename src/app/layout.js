@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
                   <li><a href="https://www.google.com/maps/place/ND.10/@-0.4715615,117.1347588,19z/data=!4m6!3m5!1s0x2df67f71a1459abd:0x6e1d9033851c73ca!8m2!3d-0.4714662!4d117.1355473!16s%2Fg%2F11ty005xm1?entry=ttu" className="text-link text-sm">ND 10, Perumahan Pandan Harum Hill, Kel. Air Hitam, Kec. Samarinda Ulu, Kota Samarinda, Provinsi Kalimantan Timur, Indonesia</a></li>
                 </ul>
               </ul>
-              <h3><a href="/" className="text-link text-sm">admin@tatagraha.com</a></h3>
+              <h3><a href="mailto:admin@tatagraha.com" className="text-link text-sm">admin@tatagraha.com</a></h3>
               <h3 className="text-sm">+6281234567890</h3>
               <div className="flex justify-center child:mx-1">
                 <a href="/">
@@ -46,7 +46,11 @@ export default function RootLayout({ children }) {
               </div>
             </div>
             <div>
-              <h1 className="text-center text-2xl">Shortlink</h1>
+              {/* <h1 className="text-center text-2xl">Shortlink</h1> */}
+              <div className='text-link pl-4 pt-4 grid'>
+                <a href="/">Term and Condition</a>
+                <a href="/">FAQ</a>
+              </div>
             </div>
           </div>
           <h3 className="text-center pt-2">© 2023 tatagraha, Dibuat oleh <a href="https://rutherford16.github.io/" className="text-link">Ronny Hidayat</a></h3>

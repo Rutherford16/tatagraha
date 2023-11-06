@@ -102,7 +102,7 @@ export default function Header() {
                         </svg>
                     </button>
                 </div>
-                <Dropdown className="bg-link rounded" label="Indonesia" dismissOnClick={false}>
+                <Dropdown className="bg-link" label="Indonesia" dismissOnClick={false}>
                     <Dropdown.Item>English</Dropdown.Item>
                 </Dropdown>
                 {/* <button className="bg-blue-800 text-white py-1 px-3 rounded hover:bg-blue-600">

@@ -28,6 +28,7 @@ export default function ImageMasonry() {
               src={`${item.img}?w=162&auto=format`}
               alt={item.title}
               loading="lazy"
+              className=''
               style={{
                 borderBottomLeftRadius: 4,
                 borderBottomRightRadius: 4,
@@ -35,6 +36,7 @@ export default function ImageMasonry() {
                 width: '100%',
               }}
             />
+            <div className='relative bottom-6 bg-black opacity-60 text-center text-white'>{item.title}</div>
           </div>
         ))}
       </Masonry>

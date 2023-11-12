@@ -13,16 +13,30 @@ export default function ColorsTimeline() {
     <Timeline position="alternate">
       <TimelineItem>
         <TimelineSeparator>
+          <TimelineDot color="primary" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Ceritakan keinginan anda</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
           <TimelineDot color="secondary" />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>Secondary</TimelineContent>
+        <TimelineContent>Kami akan membuatkan rancangan awal untuk anda</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="primary" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Anda me-review rancangan kami</TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="success" />
         </TimelineSeparator>
-        <TimelineContent>Success</TimelineContent>
+        <TimelineContent>Saat rancangan kami sudah disetujui maka kami akan mulai melakukan pembangunan</TimelineContent>
       </TimelineItem>
     </Timeline>
   );

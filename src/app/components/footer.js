@@ -3,8 +3,8 @@ import Image from "next/image"
 export default function Footer(){
     return(
         <footer className="bg-blue-900 text-white p-4 pb-2">
-            <div className="grid grid-cols-3 border-b pb-5">
-              <div className="border-r">
+            <div className="grid lg:grid-cols-3 grid-cols-1 border-b pb-5">
+              <div className="border-b lg:border-r lg:border-b-0 pb-5">
                 <h1 className="text-center text-2xl">Hubungi Kami</h1>
                 <ul>
                   <li>Alamat Kantor</li>
@@ -27,7 +27,7 @@ export default function Footer(){
                   </a>
                 </div>
               </div>
-              <div className="border-r px-8">
+              <div className="border-b lg:border-r lg:border-b-0 px-8 pb-5">
                 <h1 className="text-center text-2xl">Our Client</h1>
                 <div className='grid grid-cols-4'>
                   <Image src='/img/bumn.png' width={320} height={240} alt='' className="" />

@@ -20,7 +20,7 @@ export default function Home() {
         <div className="m-10">
           <h1 className="text-4xl font-semibold my-3 py-2 w-fit border-b-2 border-blue-900">Galery</h1>
           <ImageMasonry/>
-          <h1 className="text-4xl font-semibold my-3 py-2 border-b-2 border-blue-900">Galery</h1>
+          <h1 className="text-4xl font-semibold my-3 py-2 border-b-2 border-blue-900">Alur Kerja</h1>
           <ColorsTimeline/>
         </div>
       </main>

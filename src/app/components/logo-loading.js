@@ -90,7 +90,7 @@ export default function LogoLoading({loading}) {
                 }, '-=800')
                 .add({
                     targets: '#box',
-                    translateY: [0, -260],
+                    translateY: [0, '-42.5vh'],
                 }, '-=800')
                 .add({
                     duration: 200,

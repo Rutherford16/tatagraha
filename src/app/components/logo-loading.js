@@ -75,7 +75,7 @@ export default function LogoLoading({loading}) {
                 .add({
                     targets: '#box',
                     translateX: [100, 0],
-                }, '-=1800')
+                }, '-=1850')
                 .add({
                     targets: '#letter-loading',
                     scale: [0.3, 1],
@@ -89,8 +89,9 @@ export default function LogoLoading({loading}) {
                     opacity: [0, 1],
                 }, '-=800')
                 .add({
-                    delay: 20000,
-                })
+                    targets: '#box',
+                    translateY: [0, -250],
+                }, '-=800')
                 .add({
                     duration: 200,
                     complete: function (anim) {

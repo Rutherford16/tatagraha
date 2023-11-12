@@ -96,8 +96,8 @@ export default function Logo() {
     }, []);
 
     return (
-        <span className='flex w-full h-16 m-4'>
-            <svg viewBox="0 0 260 84" className="w-full h-auto text-black">
+        <span className='flex w-fit h-16 mx-auto my-4'>
+            <svg viewBox="0 0 260 84" className="w-full h-auto">
                 <rect width='15' height='25' x='0' y='0' fill="currentColor" />
                 <rect width='15' height='25' x='0' y='0' fill="currentColor" id="kotak2" />
                 <rect width='15' height='25' x='0' y='0' fill="currentColor" id="kotak3" />

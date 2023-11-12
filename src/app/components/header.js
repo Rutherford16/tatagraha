@@ -4,9 +4,9 @@ import Logo from "./logo";
 
 export default function Header() {
     return (
-        <header className='grid grid-cols-1 text-black px-8 h-fit'>
+        <header className='grid grid-cols-1 text-blue-900 px-8 h-fit'>
             <Logo />
-            <span className="flex w-fit m-auto child:border-b-2 child:border-black font-medium child:py-1 child:px-3 child:mx-2 child-hover:opacity-60">
+            <span className="flex w-fit m-auto child:border-b-2 child:border-blue-900 font-medium child:py-1 child:px-3 child:mx-2 child-hover:opacity-80">
                 <a href="/">Home</a>
                 <a href="/">Insight</a>
                 <a href="/">About</a>

@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.17",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/lab": "^5.0.0-alpha.152",
+    "@mui/material": "^5.14.17",
     "animejs": "^3.2.1",
-    "flowbite-react": "^0.6.4",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18"

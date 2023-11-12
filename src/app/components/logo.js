@@ -111,7 +111,7 @@ export default function Logo() {
                 <rect width='15' height='25' x='0' y='0' fill="currentColor"  id="kotak11" />
                 <rect width='15' height='25' x='0' y='0' fill="currentColor" id="kotak12" />
                 <text y='50' x='100' className="text-4xl font-semibold font-mocha" fill="currentColor"><tspan id="letters">tatagraha</tspan></text>
-                <text y='75' x='100' className="text-lg" fill="currentColor" id="arsitek">ARCHITECT</text>
+                <text y='75' x='100' className="text-lg tracking-[.45em]" fill="currentColor" id="arsitek">ARCHITECT</text>
             </svg>
         </span>
     )
